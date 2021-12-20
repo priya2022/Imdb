@@ -1,0 +1,387 @@
+*
+{
+    padding:0;
+    margin:0;
+}
+body
+{
+  
+  color: black;
+  font-size: 14px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  line-height: 1.6em;  
+  margin:0px;
+  text-align:justify;
+  scroll-behavior: smooth;
+  letter-spacing: 0.1em;
+  
+}
+#main_header 
+{
+    
+    background-image: url(../images/bgcover.jpg);
+    color:white;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border:1px solid black;
+    background-size: cover;
+    margin-top:42px;
+    padding: 10px;
+    min-height: 390px;
+    transition: background-image 1s ease-in-out;
+    background-attachment: fixed;
+
+}
+.titlename
+{
+    
+   
+    display:block;
+    margin-bottom:15px;
+    margin-top:15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+
+
+
+
+h2
+{
+    color: #ff2f3a;
+    font-size:20px;
+    
+    padding-left:30px;
+    padding-top:20px;
+    margin-top:10px;
+
+}
+#headtitles 
+{
+    padding:80px;
+}
+.navbar
+{
+    background-color: rgb(0, 0, 0);
+   
+    margin:0px;
+    
+    padding:10px;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%;
+    margin-bottom: 42px;
+
+    
+}
+.navbar ul
+{
+    padding:0;
+    list-style: none;
+}
+.navbar li
+{
+    
+   
+    display: inline;
+    margin-right: 15px;
+    margin-left:15px;
+    
+}
+.navbar a
+{
+    
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+    padding-right: 15px;
+
+    
+}
+.navbar a:hover
+{
+    color:gold;
+    font-size:17px;
+    padding:10px;
+    background-color: #222222;
+}
+.navbar .con 
+{
+    float:right;
+
+}
+.navbar .social
+{
+float:left;
+justify-content: space-between;
+
+}
+img p
+{
+    display: inline;
+}
+
+
+ #main_bar
+{
+float: left;
+width: 30%;
+box-sizing: border-box;
+padding:10px;
+padding-left:30px;
+}
+
+#main_bar>img
+{
+    border:2px solid black;
+    border-top-right-radius: 25%;
+    border-bottom-left-radius: 25%;
+    box-shadow:10px 20px 10px #181818;
+}
+ #side_bar
+{
+    
+    float:right;
+    width:70%;
+    box-sizing: border-box;
+    padding-right:15px;
+    padding-left:5px;
+    
+    
+}
+#sp 
+{
+    color: #feb268;
+    text-indent: 50px;
+}
+
+@media(max-width:600px)
+{
+    #main_bar{
+        width: 52%;
+        float:none;
+        margin:auto;
+
+
+    }
+    #social
+    {
+        float:right;
+        width:50%;
+    }
+    #side_bar{
+        width: 100%;
+        float:none;
+        margin:auto;
+       
+    }
+}
+#content_banner
+{
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    margin:6px solid rosebrown;
+    padding:30px;
+    border-radius:20px;
+
+}
+.box{
+   
+   /* background-image: url(../images/black.jpg);
+    background-repeat: no-repeat center;
+    background-size: cover;*/
+    width: 100%;
+    margin-top:-10px;
+    background-color: #252525;
+    scroll-behavior: smooth;
+    
+    
+}
+.ptext{
+    padding:50px;
+    align-items:justify;
+    line-height: 2em;
+    color:rgba(248, 203, 0, 0.938);
+    
+
+}
+
+.social img
+{
+    border-radius: 50%;
+}
+#about, #experience, #contact
+{
+min-height:480px;
+}
+
+#about 
+{
+    background-image: url(../images/about.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-attachment: fixed;
+}
+#experience
+{
+    background-image: url(../images/interstellar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-attachment: fixed;
+}
+#contact
+{
+    background-image: url(../images/contact-us-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-attachment: fixed;
+    
+}
+
+.content
+{
+    background-color: rgba(39, 38, 38, 0.8);
+    color: white;
+    height:480px;
+}
+.m
+{
+    margin-top: -18px;
+}
+
+.form input,textarea,button
+{
+    padding: 10px 15px;
+    width:60%;
+    display: block;
+    border-radius:4px;
+    box-sizing: border-box;
+    border: 1px solid rosybrown;
+    margin:auto;
+}
+.b
+{
+    margin-top:30px;
+    
+}
+
+
+.details
+{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.bar 
+{
+    border:2px solid #f6f7fc;
+    border-radius: 20px;
+   
+}
+.bar div{
+    border-radius: 10px;
+    height:9px;
+    width:0;
+    background-color:#fdfafb3a;
+    
+}
+
+h2
+{
+    margin-bottom: 20px;
+    font-size: 33px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-weight: bold;
+}
+.skills:not(:last-child)
+{
+    margin-bottom:20px;
+}
+.container
+{
+    width: 100%;
+    
+  padding:20px 20px 20px;
+  border:2px solid rgba(255, 255, 255, 0.06);
+  border-radius:10px;
+  
+  box-shadow: 0 20px 30px rgba(0,0,0,0.2);
+
+}
+.container *
+{
+    font-family:"Poppins" ,sans-serif;
+    color:white;
+    font-weight:500;
+}
+.w 
+{
+    width:50%;
+    margin:auto;
+    min-width: 430px;
+
+}
+
+#html-bar
+{
+    animation: html-fill 2s forwards;
+
+}
+@keyframes html-fill 
+{
+    100%
+    {
+        width:90%;
+    }
+}
+
+#css-bar{
+    animation: css-fill 2s forwards;
+}
+@keyframes css-fill
+{
+    100%
+    {
+        width:72%;
+    }
+}
+
+#js-bar
+{
+    animation: js-fill 2s forwards;
+}
+
+@keyframes js-fill
+{
+    100%
+    {
+        width:70%;
+    }
+}
+#ReactJs-bar{
+    animation:rjs-fill 2s forwards;
+}
+@keyframes rjs-fill 
+{
+    100%
+    {
+        width:70%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
